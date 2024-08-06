@@ -41,5 +41,6 @@
   /* Font families and weights */
   --font-family-rubik: "Rubik", sans-serif;
   --font-weight-regular: normal; /* Regular */
+  --font-weight-regular-italic: italic; /* Regular */
   --font-weight-medium: 500; /* Medium */
 }
