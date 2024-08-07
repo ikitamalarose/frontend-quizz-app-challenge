@@ -1,0 +1,19 @@
+@media (max-width: 768px) {
+  body.darkMode {
+    background-image: url("/assets/images/pattern-background-mobile-dark.svg");
+    background-color: var(--dark-blue-grey);
+    color: var(--pure-white);
+  }
+
+  .menu__item.darkMode {
+    background: var(--medium-blue-grey);
+  }
+
+  #lightModeButton.darkMode img {
+    content: url("/assets/images/icon-sun-light.svg");
+  }
+
+  #darkModeButton.darkMode img {
+    content: url("/assets/images/icon-moon-light.svg");
+  }
+}
